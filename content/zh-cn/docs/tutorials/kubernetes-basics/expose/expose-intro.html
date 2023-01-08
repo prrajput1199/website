@@ -54,7 +54,7 @@ weight: 10
 			</ul>
 <!--        <p>More information about the different types of Services can be found in the <a href="/docs/tutorials/services/source-ip/">Using Source IP</a> tutorial. Also see <a href="/docs/concepts/services-networking/connect-applications-service">Connecting Applications with Services</a>.</p>-->
         <p>更多关于不同 Service 类型的信息可以在<a href="/zh-cn/docs/tutorials/services/source-ip/">使用源 IP </a> 教程。 也请参阅 <a href="/zh-cn/docs/concepts/services-networking/connect-applications-service">连接应用程序和 Service </a>。</p>
-<!--        <p>Additionally, note that there are some use cases with Services that involve not defining <code>selector</code> in the spec. A Service created without <code>selector</code> will also not create the corresponding Endpoints object. This allows users to manually map a Service to specific endpoints. Another possibility why there may be no selector is you are strictly using <code>type: ExternalName</code>.</p>-->
+<!--        <p>Additionally, note that there are some use cases with Services that involve not defining <code>selector</code> in the spec. A Service created without<code>selector</code> will also not create the corresponding Endpoints object. This allows users to manually map a Service to specific endpoints. Another possibility why there may be no selector is you are strictly using <code>type: ExternalName</code>.</p>-->
         <p>另外，需要注意的是有一些 Service 的用例没有在 spec 中定义<code>selector</code>。 一个没有<code>selector</code>创建的 Service 也不会创建相应的端点对象。这允许用户手动将服务映射到特定的端点。没有 selector 的另一种可能是你严格使用<code>type: ExternalName</code>来标记。</p>
 			</div>
 			<div class="col-md-4">
@@ -97,7 +97,7 @@ weight: 10
 <!--        <p>Services match a set of Pods using <a href="/docs/concepts/overview/working-with-objects/labels">labels and selectors</a>, a grouping primitive that allows logical operation on objects in Kubernetes. Labels are key/value pairs attached to objects and can be used in any number of ways:</p>-->
         <p>Service 匹配一组 Pod 是使用 <a href="/zh-cn/docs/concepts/overview/working-with-objects/labels">标签(Label)和选择器(Selector)</a>, 它们是允许对 Kubernetes 中的对象进行逻辑操作的一种分组原语。标签(Label)是附加在对象上的键/值对，可以以多种方式使用:</p>
 				<ul>
-<!--          <li>Designate objects for development, test, and production</li>-->
+<!--          <li>Designate objects for development, testing, and production</li>-->
 <!--          <li>Embed version tags</li>-->
 <!--          <li>Classify an object using tags</li>-->
 					<li>指定用于开发，测试和生产的对象</li>
